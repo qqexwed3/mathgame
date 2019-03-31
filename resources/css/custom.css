@@ -1,0 +1,116 @@
+/*===========[Subcontent Area]============*/
+
+.subcontent-area {
+    padding: 5.25rem  1rem 2rem 1rem;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/*===========[Index]============*/
+
+.index {
+    max-width: 80%;
+}
+
+.index .menu-box {
+    border: 5px solid #c4c4c4;
+    border-radius: 30px;
+    box-sizing: border-box;
+
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+.index .menu-box:hover {
+    border: 10px solid #09bcaa;
+
+    -webkit-box-shadow: inset 0px 10px 13px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: inset 0px 10px 13px 0px rgba(0,0,0,0.47);
+    box-shadow: inset 0px 10px 13px 0px rgba(0,0,0,0.47);
+}
+
+.index .menu-box-blank {
+    border: 5px solid #c4c4c4;
+    border-radius: 30px;
+    box-sizing: border-box;
+
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+
+    background-color: #c4c4c4;
+}
+
+.index .menu-box img {
+    width: 150px;
+    height: 150px;   
+}
+
+.index .menu-box h3 {
+    margin: 0;
+    display: block;
+}
+
+.menu-box .custom {
+    margin-top: 20px;
+    width: 130px !important;
+    height: 130px !important;   
+}
+/*select*/
+.selectPlate{
+    font-size: 16px;
+}
+
+
+/* div*/
+div.border-gray{
+    border: 3px solid gray;
+}
+
+.width5{
+    width: 5%
+}
+.width10{
+    width: 10%
+}
+.width15{
+    width: 15%
+}
+.width25{
+    width: 25%
+}
+.width60{
+    width: 60%
+}
+.width65{
+    width: 65%
+}
+.width70{
+    width: 70%
+}
+.width75{
+    width: 75%
+}
+.width80{
+    width: 80%
+}
+.plate {
+    max-width: 100%;
+}
+div.bottom{
+    position:fixed;
+    bottom:0px;
+    width:1000px;
+    margin:0px auto;
+    }
+/* Image */

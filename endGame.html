@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Games - Prime Number</title>
+    <link rel="shortcut icon" type="image/png" href="./resources/imgs/logo.png" />
+
+    <!-- Utilities CSS-->
+    <link href="./resources/css/color.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/icon.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/page-helper.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/element.css" type="text/css" rel="stylesheet">
+
+    <!--Commons CSS -->
+    <link href="./resources/css/initial.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/navbar.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/main-menu.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/custom.css" type="text/css" rel="stylesheet">
+
+    <!--JS-->
+    <script src="./resources/js/accController.js"></script>
+    <script src="./resources/js/index.js"></script>
+</head>
+
+<body class="resizeGameMenu" onload="endScore()">
+    <div class="navbar-div">
+        <nav class="navbar is-oros" aria-label="main navigation">
+            <a class="navbar-item banner" onClick="mockMain()">
+                <div>
+                    <img class="navbar-banner-logo" src="./resources/imgs/mathlogo.png" alt="logo"></img>
+                    <span class="navbar-banner-text">Math</span>
+                </div>
+            </a>
+        </nav>
+    </div>
+    
+    <br><br><br><br><br><br><br><div>
+            
+    </div><br>
+    <div class="text-center">
+        <label class="label is-1">SCORE :</label><br><br><br>
+        <label class="label is-1" id="endSc">0</label>
+    </div>
+    <br><br><br>
+    <div class="text-center">
+        <button type="button" class="button is-round is-2 width25 is-yentafo text-center" onClick="mockPlaygame()">Character Select</button>
+    </div><br>
+    <div class="text-center">
+        <button type="button" class="button is-round is-2 width25 is-orange text-center" onClick="mockReturnGame()">Home</button>
+    </div><br><br><br><br><br><br><br><br>
+    <div align="center">
+            <iframe src="./resources/Sounds/BGM/EndBGM.wav" scrolling="no" frameBorder="0" style="display:none"></iframe>
+            <audio controls autoplay loop>
+                    <source src="./resources/Sounds/BGM/EndBGM1.wav">
+            </audio>
+    </div>
+        
+    
+    
+</body>
+<footer>
+    <!-- Controller JS -->
+    <script src="./resources/js/menuController.js"></script>
+    <script src="./resources/js/navbarController.js"></script>
+</footer>
+
+</html>

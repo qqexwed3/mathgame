@@ -1,0 +1,38 @@
+body {
+
+    margin: 0;
+    padding: 0;
+  }
+.resizeMain {
+  background-image: url("../imgs/bg2.jpg" );
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1600px 800px;
+}
+.resizeGameMenu {
+  background-image: url("../imgs/BGPrime.jpg" );
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1600px 800px;
+
+}
+.resizeGameChar {
+  background-image: url("../BG/characterSelect.png" );
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1600px 800px;
+
+}
+.resizePlayGame {
+  background-image: url("../BG/stage01.png" );
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1600px 800px;
+
+}
+  
+  html, body {
+    min-height: 100vh;
+    height: 100vh;
+  }
+  
